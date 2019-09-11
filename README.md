@@ -10,10 +10,10 @@ Create an empty blob:
 
 Create new a blob and set it:
 ```
-./myjson.hy -set "{\"Hello\": \"World.\"}"
+./myjson.hy -set '{"Hello": "World."}'
 ```
 
 Grab data from a blob:
 ```
-./myjson.hy  -get -blob https://api.myjson.com/bins/1cc7ht -set "{\"Hello\": \"World.\"}"
+./myjson.hy  -get -blob https://api.myjson.com/bins/1cc7ht -set '{"Hello": "World."}'
 ```
